@@ -1,0 +1,93 @@
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: #eee;
+      }
+      h2 {
+        text-align: center;
+        color: #666;
+        margin-top: 30px;
+      }
+      #container {
+        position: relative;
+        width: 350px;
+        margin: 20px auto 0;
+        box-shadow: 0px 0px 12px #999;
+      }
+      #container header #new {
+        width: 350px;
+        height: 50px;
+        background-color: #fff;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: #ddd 2px solid;
+        font-size: 16px;
+        text-indent: 10px;
+        color: #ddd;
+      }
+      #container #view {
+        background-color: #fff;
+      }
+      #container ul li {
+        list-style: none;
+        width: 350px;
+        height: 40px;
+        line-height: 40px;
+        border-bottom: #eee 1px solid;
+        color: #666;
+      }
+      #container ul li #view span {
+        padding: 0 10px;
+      }
+      #container ul li #view #delect {
+        float: right;
+        margin-right: 12px;
+        display: none;
+        height: 40px;
+        line-height: 40px;
+        width: 40px;
+        font-size: 20px;
+        border: none;
+        color: #333;
+        background: none;
+        color: rgb(219, 84, 30);
+      }
+      #container ul li #view:hover #delect {
+        display: block;
+      }
+      #container footer {
+        padding: 10px;
+        color: #ddd;
+        background-color: #fff;
+        border-bottom: #eee 1px solid;
+      }
+      #container footer #clear {
+        float: right;
+      }
+      #container footer #clear:hover,
+      #container footer #itemsLeft:hover {
+        color: rgb(219, 84, 30);
+        cursor: pointer;
+        transition: 0.1s;
+      }
+
+      #info div {
+        height: 4px;
+        border-bottom: 1.5px #ddd solid;
+        border-left: 1.5px #ddd solid;
+        border-right: 1.5px #ddd solid;
+        margin: 0 auto;
+        background-color: #fff;
+        position: relative;
+      }
+      #info #div1 {
+        width: 340px;
+      }
+      #info #div2 {
+        width: 330px;
+        box-shadow: 0px 2px 5px #999;
+      }
